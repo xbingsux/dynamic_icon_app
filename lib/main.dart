@@ -28,7 +28,7 @@ class IconSwitcherScreen extends StatefulWidget {
 }
 
 class _IconSwitcherScreenState extends State<IconSwitcherScreen> {
-  static const platform = MethodChannel('com.example.app/icon');
+  static const platform = MethodChannel('com.example.dynamic_icon_app/icon');
 
   Future<void> _switchAppIcon(bool isChristmas) async {
     try {

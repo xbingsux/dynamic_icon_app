@@ -42,3 +42,10 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1' // รองรับ Theme.AppCompat
+    implementation 'com.google.android.material:material:1.9.0' // สำหรับ Material Design
+    implementation 'androidx.core:core-ktx:1.10.1' // เพิ่มฟังก์ชัน AndroidX
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // สำหรับ Layout
+}
